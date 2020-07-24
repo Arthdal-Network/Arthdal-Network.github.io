@@ -1,0 +1,134 @@
+body {
+    background-color: #333;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #005B95;
+    font-family: "Segoe UI", Arial, serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-family: "Segoe UI", Arial, serif;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: azure;
+    font-family: "Segoe UI", Arial, serif;;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover, .dropbtn {
+    background-color: #000854;
+    color: aliceblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    position: center;
+    font-family: "Segoe UI", Arial, serif;
+    font-weight: bolder;
+    color: red;
+    background-color: #000854;
+}
+
+.hero-image {
+    background-image: url("image.jpg");
+    height: 420px;
+}
+
+.hero-text {
+    font-family: "Segoe UI Light", Arial, serif;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero-text button {
+    padding: 12px 20px;
+}
+
+.content {
+    background-color: #000742;
+    color: aliceblue;
+    font-family: "Segoe UI", Arial, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.Home {
+    background-color: #005B95;
+    color: #dddddd;
+    font-family: "Segoe UI", Arial, serif;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.list {
+    background-color: #779ecb;
+    color: white;
+    font-family: "Segoe UI", Arial, serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+
+.discord {
+    background-color: #005B95;
+    color: #dddddd;
+    font-family: "Segoe UI Light", serif;
+
+}
+
+.logo-2 {
+    position: absolute;
+    bottom: 80px;
+    left: 16px;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
